@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c1b582eb8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p style="color: #ffffff;">Cyber Security Undergraduate Student</p>
+            <h1 style="color: #ffffff;">Hi, I'm <span>Lasindu</span> Dilshan<br> From Sri Lanka</h1>
+        </div>
+    </div>
+
+<!-----------------about-------------- -->
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm an ambitious cyber security enthusiast exploring the complexities of information security. My academic journey at SLTC Research University has equipped me with strong analytical skills, a deep understanding of security principles, and hands-on experience in identifying vulnerabilities and securing networks</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Technical Skills:</span><br>Programming: Python, Java, C<br>Tools: Wireshark, Kali Linux, Metasploit</li>
+                        <li><span>Soft Skills:</span><br>Problem-solving<br>Analytical thinking<br>Communication</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>SLTC Research University<br>BSc in Cyber Security (Expected Graduation: 2028)<br>
+                            Relevant Coursework: Ethical Hacking, Network Defense, Risk Management
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------services------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-firewall"></i>
+                <h2>Vulnerability Assessment</h2>
+                <p1>Identifying vulnerabilities in systems, networks, or applications.Performing ethical hacking to simulate potential cyberattacks.Providing detailed reports with recommendations for mitigation.</p1>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="bi-lock-fill"></i>
+                <h2>Network Security Services</h2>
+                <p>Securing network infrastructures by implementing firewalls, IDS/IPS, and VPNs.Conducting audits to ensure compliance with security standards.Offering 24/7 monitoring for suspicious activities.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Secure Application Development</h2>
+                <p>Reviewing code to identify potential security loopholes.Providing input during the development lifecycle to ensure secure application design.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work"> 
+                <img src="images/file sharing.png">
+                <div class="layer">
+                    <h3>Secure File Sharing Platform</h3>
+                    <p>Developed an encrypted file-sharing application to ensure secure transmission of sensitive data.<br>(Technologies: AES encryption, Flask)
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/second project.png">
+                <div class="layer">
+                    <h3>Network Vulnerability Assessment Tool</h3>
+                    <p>Designed and implemented a tool for scanning and reporting vulnerabilities in local networks.<br>(Tools Used: Python, Nmap, Metasploit)</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Cyber Threat Research Initiative</h3>
+                    <p>Conducted a research project on phishing attacks and their mitigation strategies.</p>                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>lasindudilshanhewage1222@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0714727429</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/smart.dila.98?mibextid=LQQJ4d"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/dil_hewage22/profilecard/?igsh=MXhiNWI5emd2andqdg=="><i class="fab fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/lasindu-dilshan-hewage"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Blue Simple Professional CV Resume (2).pdf (1).pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Dilshan. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemen = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemen.style.right = "0";
+    }
+    function closemenu(){
+        sidemen.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwg0pJ1Ahmehp96uu3hOBroyBl7Sw1sAib350XMyvMPuRigTyxermaoMeYVGXC8gvGVkg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body> 
+</html>
